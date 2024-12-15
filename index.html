@@ -76,7 +76,7 @@
 
             try {
                 // 调用 Cloudflare Worker API 获取图片
-                const response = await fetch("https://blogx.3369661439.workers.dev"); // 替换成实际 Worker 的 URL
+                const response = await fetch("https://blogx.3369661439.workers.dev/"); // 替换成实际 Worker 的 URL
                 const data = await response.json();
 
                 if (data.imageUrl) {
