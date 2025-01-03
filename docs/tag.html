@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     
-    <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg"><script>
+    <link rel="icon" href="https://www.baidu.com/sf/vsearch?pd=image_content&word=%E7%BB%AA%E5%B1%B1%E7%9C%9F%E5%AF%BB&tn=vsearch&atn=mediacy&fr=tab&sa=vs_tab&imgpn=3&imgspn=&tt=1&di=7445700328764211201&bdtype=0&pi=0&cs=1026238713%2C3410858621&imgos=3004122583%2C3511524363&imgis=0%2C0&imgtype=0&ssrlid=11893764441866575183&imgcontent=%7B%22materialQuery%22%3A%22%22%7D"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="Blog Title search page">
-<title>Blog Title - Tag</title>
+<meta name="description" content="MahiroのBlog search page">
+<title>MahiroのBlog - Tag</title>
 
 </head>
 <style>
@@ -76,7 +76,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <nav class="SideNav"></nav>
 <div class="notFind" style="display:none;font-size:24px;margin:8px;">Not Find</div>
 </div>
-    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://lujih.github.io">Blog Title</a></div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://lujih.github.io">MahiroのBlog</a></div>
 <div id="footer2">
     <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
 </div>
@@ -236,7 +236,7 @@ function setClassDisplay(label){
     let lists = document.getElementsByClassName("lists");
     let tagTitle = document.getElementsByClassName("tagTitle")[0];
     tagTitle.innerHTML="Tag #"+label;
-    document.title=label+" - Blog Title";
+    document.title=label+" - MahiroのBlog";
     document.getElementsByClassName("subnav-search-input")[0].value='';
     if(label=="All"){
         for(let i = 0; i < lists.length; i++){lists[i].style.display='block';}
@@ -264,8 +264,8 @@ function searchShow(){
     let tagTitle = document.getElementsByClassName("tagTitle")[0];
     let searchInput = document.getElementsByClassName("subnav-search-input")[0].value;
     tagTitle.innerHTML="Search #"+searchInput;
-    if(searchInput==''){document.title="Search - Blog Title";}
-    else{document.title=searchInput+" - Blog Title";}
+    if(searchInput==''){document.title="Search - MahiroのBlog";}
+    else{document.title=searchInput+" - MahiroのBlog";}
     let a=0;
     window.location.hash="#"+(searchInput);
     for(let i = 0; i < lists.length; i++){

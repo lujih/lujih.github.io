@@ -1,6 +1,6 @@
-# Blog Title :link: https://lujih.github.io 
+# MahiroのBlog :link: https://lujih.github.io 
 ### :page_facing_up: [1](https://lujih.github.io/tag.html) 
 ### :speech_balloon: 0 
 ### :hibiscus: 2 
-### :alarm_clock: 2025-01-03 13:03:39 
+### :alarm_clock: 2025-01-03 13:09:16 
 ### Powered by :heart: [Gmeek](https://github.com/Meekdai/Gmeek)
